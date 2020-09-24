@@ -338,12 +338,18 @@ hr{
 	margin-top: 10vh;
 }
 
+.xs{
+	display: none;
+}
+
+
 .start-btn{
 	width: 20%;
 	height: 5vh;
 	background-color: white;
 	margin-top: 3vh;
 	text-align: center;
+	border-radius: 5%;
 }
 
 .start-btn a{
@@ -389,6 +395,14 @@ i{
 }
 
 @media screen and (max-width: 425px){
+
+	.container{
+		width: auto;
+	}
+
+	.section{
+		margin: 9vh 0;
+	}
 
 	.navbar{
 		height: 6vh;
@@ -461,7 +475,7 @@ i{
 		font-size: 15px;
 		margin: 0;
 		position: fixed;
-		right: 10px;
+		right: 20px;
 		bottom: 10px;
 		z-index: 100;
 	}
@@ -522,17 +536,207 @@ i{
 	}
 
 	.top-p{
-	margin-top: 2vh;
-	display: block;
-}
+		margin-top: 2vh;
+		display: block;
+	}
 
+	#h4-2{
+		margin-top: 4vh;
+	}
+
+	.stick{
+		width: 20%;
+		margin: 10px 75% 0 0;
+	}
+
+	.section1 h2{
+		font-size: 35px;
+		text-align: left;
+	}
+
+	.host-text{
+		margin:4vh 0;
+	}
+
+	.section2>.row{
+		display: flex;
+		flex-direction:column;
+	}
+
+	.sec2-p{
+		order:2;
+	}
+
+	.sec2-i{
+		order: 1;
+	}
+
+	.man{
+		width: 100%;
+	}
+
+	.double{
+		font-size: 70px;
+		display: inline-block;
+		margin-top: 3vh;
+		height: 1px;
+		font-weight: 600;
+	}
+
+	.section2 p{
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.btn{
+		margin-left: 2vw;
+	}
+
+	.secton-title{
+		font-size: 35px;
+		text-align: left;
+	}
+
+	.mechanism{
+		font-size: 15px;
+		display: inline-block;
+		margin-bottom: 3vh;
+	}
 
 	.bed-making{
-		width: 90%;
+		padding: 0;
+		width: 100%;
+		height: 40vh;
+		margin-top:10vh;
+		margin-bottom: 10vh;
 	}
 
-	#z{
-		width: 90%;
+	.section5 img{
+		width: 100%;
 	}
+
+	#double2{
+		margin-top: 0;
+	}
+
+	.woman-text{
+		margin-top: 0;
+	}
+
+	.woman-text p{
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	#hosting{
+		margin-top: 5vh;
+	}
+
+	.xs{
+		display: initial;
+	}
+
+	.md{
+		display: none;
+	}
+
+
+	.section7 img{
+		width: 28%;
+		height: 9.8vh;
+		margin-right: 4vw;
+	}
+
+	.details{
+		border:solid 1px gray;
+		height: 10vh;
+		display: inline-flex;
+		margin-top: 2vh;
+		box-shadow: 0 3px #eee;
+	}
+
+	.xs-text h4{
+		font-size: 15px;
+		color: gray;
+	}
+
+	.xs-text p{
+		font-size: 12px;
+		color: gray;
+	}
+
+	.section8-xs{
+		display: block;
+		background-image: url("img/flower.jpg");
+		background-size: cover;
+		background-position: center;
+		height: 50vh;
+		width: 100%;
+	}
+
+	.section8-xs h2{
+		font-size: 40px;
+		font-weight: 800;
+		color: white;
+		margin: 0 10%;
+		padding-top: 10vh;
+		width: 80%;
+		text-align: left;
+	}
+
+	.start-btn{
+		width: 30%;
+		height: 6vh;
+		margin-left: 10%;
+	}
+
+	.start-btn a{
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 6vh;
+	}
+
+	footer{
+		width: 100%;
+		height: auto;
+		margin-top: 5vh;
+	}
+
+	footer hr{
+		display: inline;
+	}
+
+	.foot{
+		border-bottom: solid 1px #b4b4b4;
+	}
+
+	.last{
+		display: flex;
+		flex-direction: column;
+		margin-top: 3vh;
+	}
+
+	.last-1{
+		order: 2;
+		display: block;
+		margin-top: 2vh;
+	}
+
+	.last2{
+		order:1;
+		display: block;
+		text-align: left;
+	}
+
+	.footer-right a{
+		margin: 0 1%;
+	}
+
+	i{
+		margin: 0;
+	}
+
+
+
 
 }
